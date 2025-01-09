@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
         message: "How are you?",
       };
       socket.emit("notificationSend", content);
-    }, 1000 * 60);
+    }, 1000 * 6);
   });
 });
 
